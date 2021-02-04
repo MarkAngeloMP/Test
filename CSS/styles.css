@@ -1,0 +1,147 @@
+/* TAG SELECTOR */
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  height: 100%;
+}
+html{
+  height: 100%
+}
+h1{
+  margin:50px auto 0;
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 600%;
+  color: #66BFBF;
+}
+h2{
+  font-family:'IBM Plex Serif', serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #66BFBF;
+
+}
+h3{
+  font-family: 'IBM Plex Serif', serif;
+  color: #11999E;
+}
+a{
+  color: #9dad7f;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #c7cfb7;
+}
+hr{
+  border-style: none;
+  border-top: 6px dotted #EAF6F6;
+  width: 3%;
+  margin: 50px auto 50px;
+}
+/* CLASS SELECTOR */
+.top_container{
+  background-color: #f7f7e8;
+  position: relative;
+  padding-top: 100px;
+  width: 100%;
+}
+
+.top-cloud{
+  position:absolute;
+  right: 300px;
+  top:50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 15%;
+  top: 400px;
+}
+.sunset{
+height: 170px;
+width: 170px;
+position: absolute;
+right: 10%;
+top: 20%;
+}
+.mountain{
+width: 100%;
+}
+.profile-img{
+  margin-top: 30px;
+  height:200px;
+  width:200px;
+}
+.my-bio{
+  width: 50%;
+  text-align: left;
+  margin: 0 auto 0;
+  line-height: 2;
+}
+.CADimg{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.WebDevimg{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.title{
+  margin-top: 0;
+  font-size: 2rem;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px;
+  text-align: left;
+  line-height: 2;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.contact-me{
+  position: relative;
+}
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: 'Rubik', Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #f7f7e8;
+  margin-top: 40px;
+  padding-top: 10px;
+  padding-bottom: 0;
+}
+.copyright{
+  color: #5eaaa8;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* ID SELECTOR */
